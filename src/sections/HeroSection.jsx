@@ -44,15 +44,13 @@ export default function HeroSection({ heroBg, logo, phoneHero, features }) {
               <HoverUnderlineLink href="/features">
                 Özellikler
               </HoverUnderlineLink>
-              <HoverUnderlineLink href="#howItWorks">
+              <HoverUnderlineLink href="/howItWorks">
                 Nasıl Çalışır
               </HoverUnderlineLink>
               <HoverUnderlineLink to="/pricing">
                 Fiyatlandırma
               </HoverUnderlineLink>
-              <HoverUnderlineLink href="#aboutUs">
-                Hakkımızda
-              </HoverUnderlineLink>
+              <HoverUnderlineLink href="/about">Hakkımızda</HoverUnderlineLink>
             </div>
           </div>
         </Reveal>
