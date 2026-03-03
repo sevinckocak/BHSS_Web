@@ -41,7 +41,7 @@ export default function HeroSection({ heroBg, logo, phoneHero, features }) {
             </div>
 
             <div className="hidden items-center gap-8 text-sm md:flex">
-              <HoverUnderlineLink href="#features">
+              <HoverUnderlineLink href="/features">
                 Özellikler
               </HoverUnderlineLink>
               <HoverUnderlineLink href="#howItWorks">
