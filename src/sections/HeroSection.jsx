@@ -41,17 +41,18 @@ export default function HeroSection({ heroBg, logo, phoneHero, features }) {
             </div>
 
             <div className="hidden items-center gap-8 text-sm md:flex">
-              <HoverUnderlineLink href="#urun">Ürün</HoverUnderlineLink>
-              <HoverUnderlineLink href="#hakkimizda">
+              <HoverUnderlineLink href="#features">
+                Özellikler
+              </HoverUnderlineLink>
+              <HoverUnderlineLink href="#howItWorks">
+                Nasıl Çalışır
+              </HoverUnderlineLink>
+              <HoverUnderlineLink to="/pricing">
+                Fiyatlandırma
+              </HoverUnderlineLink>
+              <HoverUnderlineLink href="#aboutUs">
                 Hakkımızda
               </HoverUnderlineLink>
-              <HoverUnderlineLink href="#metrikler">
-                Metrikler
-              </HoverUnderlineLink>
-
-              <ButtonSweep className="border-white/16 bg-white/10 text-white/90 hover:bg-white/14">
-                Kayıt Ol
-              </ButtonSweep>
             </div>
           </div>
         </Reveal>
